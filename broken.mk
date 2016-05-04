@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/d2dcm/full_d2dcm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
 # Inherit some common Broken stuff.
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
